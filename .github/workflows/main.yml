@@ -1,8 +1,9 @@
  name: update_files
 
 on:
-  schedule: 
-    - cron:  '*/10 * * * *'    # At every 10th minute
+  [push]
+  #schedule: 
+    #- cron:  '*/10 * * * *'    # At every 10th minute
 
 jobs:
   build:
@@ -25,6 +26,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       run: | 
         python ./main.py -gt="$GH_TOKEN"
+        
     - name: push changes
       run: |
         git add .
