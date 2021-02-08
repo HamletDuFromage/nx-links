@@ -25,7 +25,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       run: | 
-        python ./main.py -gt="$GH_TOKEN"
+        python3 ./main.py -gt="$GH_TOKEN"
 
     - name: push changes
       run: |
