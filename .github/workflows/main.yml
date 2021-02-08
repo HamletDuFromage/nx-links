@@ -21,9 +21,9 @@ jobs:
         
     - name: update files
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       run: | 
-        python ./autobuild.py -gt="$GITHUB_TOKEN"
+        python ./main.py -gt="$GH_TOKEN"
     - name: push changes
       run: |
         git add .
