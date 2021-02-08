@@ -23,9 +23,9 @@ jobs:
         
     - name: update files
       env:
-        GITHUB_TOKEN: ${{ sikrit_club.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: | 
-        python3 ./main.py -gt="$GH_TOKEN"
+        python3 ./main.py -gt="$GITHUB_TOKEN"
 
     - name: push changes
       run: |
