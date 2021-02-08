@@ -1,0 +1,35 @@
+ name: update_files
+
+on:
+  [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+        
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.9.1
+
+    - name: Install dependencies
+      run: |
+        if [ -f ./requirements.txt ]; then pip3 install -r ./requirements.txt; fi
+        
+    - name: update files
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: | 
+        python ./autobuild.py -gt="$GITHUB_TOKEN"
+    - name: push changes
+      run: |
+        git add .
+        if [[ `git status --porcelain` ]]; then
+          git commit -m "automatic: updated files"
+          git push
+        else
+          echo "Nothing to commit!"
+        fi
