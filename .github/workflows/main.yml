@@ -1,7 +1,8 @@
  name: update_files
 
 on:
-  [push]
+  schedule: 
+    - cron:  '*/10 * * * *'    # At every 10th minute
 
 jobs:
   build:
