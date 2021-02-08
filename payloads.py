@@ -11,25 +11,39 @@ config = [
         "username": "Atmosphere-NX",
         "reponame": "Atmosphere",
         "assetRegex": "",
-        "assetPatterns": [".*atmosphere.*\\.zip"]
+        "assetPatterns": [".*fusee-primary.*\\.bin"]
     },
     {
         "service": 1,
-        "username": "Team-Neptune",
-        "reponame": "DeepSea",
+        "username": "shchmue",
+        "reponame": "Lockpick_RCM",
         "assetRegex": "",
-        "assetPatterns": [".*deepsea.*\\.zip"]
+        "assetPatterns": [".*Lockpick_RCM.*\\.bin"]
+    },
+    {
+        "service": 1,
+        "username": "suchmememanyskill",
+        "reponame": "TegraExplorer",
+        "assetRegex": "",
+        "assetPatterns": [".*TegraExplorer.*\\.bin"]
+    },
+    {
+        "service": 1,
+        "username": "jimzrt",
+        "reponame": "Incognito_RCM",
+        "assetRegex": "",
+        "assetPatterns": [".* Incognito_RCM.*\\.bin"]
     }
 ]
 
-class Atmosphere(Basemodule):
+class payloads(Basemodule):
     def __init__(self, config):
         Basemodule.__init__(self, config)
 
     def handleModule(self):
         out = {}
-        path = "ams.json"
-
+        path = "payloads.json"
+        
         for i in range(len(config)):
             release = self.getLatestRelease(i)
             assets = self.getAssetLinks(release, i)
@@ -52,4 +66,4 @@ class Atmosphere(Basemodule):
                 json.dump(out, write_file)
             print("Updated " + path)
 
-package = Atmosphere(config)
+package = payloads(config)
