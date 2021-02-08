@@ -8,5 +8,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     importlib.import_module("atmosphere")
     importlib.import_module("cfw")
+    importlib.import_module("sigpatches")
     importlib.import_module("firmwares")
     importlib.import_module("sxos")
