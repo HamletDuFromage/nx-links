@@ -11,7 +11,7 @@ config = [
         "username": "ITotalJustice",
         "reponame": "patches",
         "assetRegex": "",
-        "assetPatterns": [".*hekate.*\\.zip", ".*fusee.*\\.bin"]
+        "assetPatterns": [".*hekate.*\\.zip", ".*fusee.*\\.zip"]
     }
 ]
 
