@@ -63,7 +63,7 @@ class payloads(Basemodule):
 
         if(change):
             with open(path, 'w') as write_file:
-                json.dump(out, write_file)
+                json.dump(out, write_file, indent=4)
             print("Updated " + path)
 
 package = payloads(config)
