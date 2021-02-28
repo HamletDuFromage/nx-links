@@ -19,7 +19,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        if [ -f ./scripts/requirements.txt ]; then pip3 install -r ./requirements.txt; fi
+        if [ -f ./scripts/requirements.txt ]; then pip3 install -r ./scripts/requirements.txt; fi
         
     - name: update files
       env:
