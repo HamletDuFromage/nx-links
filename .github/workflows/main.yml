@@ -31,9 +31,10 @@ jobs:
       run: |
         git config --global user.name 'HomletBot'
         git config --global user.email '61667930+HamletDuFromage@users.noreply.github.com'
+        CHANGED=$(git diff --name-only)  
         git add .
         if [[ `git status --porcelain` ]]; then
-          git commit -m "automatic: updated files"
+          git commit -m "automatic: updated files\n$CHANGED"
           git push
         else
           echo "Nothing to commit!"
