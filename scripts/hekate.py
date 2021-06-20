@@ -17,32 +17,7 @@ config = [
 
 class hekate(Basemodule):
     def __init__(self, config):
+        self.path = "hekate.json"
         Basemodule.__init__(self, config)
-
-    def handleModule(self):
-        out = {}
-        path = "hekate.json"
-        
-        for i in range(len(config)):
-            release = self.getLatestRelease(i)
-            assets = self.getAssetLinks(release, i)
-            for a in assets:
-                out[a.name] = a.browser_download_url
-
-        change = False
-        try:
-            with open(path, 'r') as read_file:
-                old = json.load(read_file)
-                if(json.dumps(old) != json.dumps(out)):
-                    print(path + " changed")
-                    change = True
-        except FileNotFoundError:
-            print("File doesn't exist")
-            change = True
-
-        if(change):
-            with open(path, 'w') as write_file:
-                json.dump(out, write_file, indent=4)
-            print("Updated " + path)
 
 package = hekate(config)

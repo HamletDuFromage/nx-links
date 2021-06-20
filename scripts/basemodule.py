@@ -1,13 +1,10 @@
-from distutils.dir_util import copy_tree
 from pathlib import Path
 from github import Github
 import urllib.request
-import uuid, os, re
-import zipfile
-import shutil
+import re
 import argparse
-import glob
 
+import json
 
 parser = argparse.ArgumentParser(description="Get links for AiO-Switch-Updater")
 requiredNamed = parser.add_argument_group('Require arguments')
@@ -18,7 +15,6 @@ class Basemodule:
     def __init__(self, config):
         print("Init module: ", self.__module__)
         self.config = config
-        self.uuid = ""
         self.handleModule()
 
     def getLatestRelease(self, index):
@@ -55,4 +51,29 @@ class Basemodule:
             self.config[index]["assetRegex"] = pattern
             assetPaths += self.getAssetLink(release, index)
         return assetPaths
-    
+
+    def handleModule(self):
+        out = {}
+
+        for i in range(len(self.config)):
+            release = self.getLatestRelease(i)
+            assets = self.getAssetLinks(release, i)
+            for a in assets:
+                out[a.name] = a.browser_download_url
+
+        change = False
+        try:
+            with open(self.path, 'r') as read_file:
+                old = json.load(read_file)
+            if old != out:
+                print(f"{self.path} changed")
+                change = True
+        except FileNotFoundError:
+            print(f"error: FileNotFoundError ({self.path})")
+            change = True
+
+        if(change):
+            with open(self.path, 'w') as write_file:
+                json.dump(out, write_file, indent=4)
+            print(f"Updated {self.path}")
+

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  nx-link:
+  nx-links:
     runs-on: ubuntu-latest
     
     steps:

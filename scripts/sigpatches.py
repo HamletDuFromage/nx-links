@@ -17,6 +17,7 @@ config = [
 
 class Sigpatches(Basemodule):
     def __init__(self, config):
+        self.path = "sigpatches.json"
         Basemodule.__init__(self, config)
 
     def handleModule(self):
