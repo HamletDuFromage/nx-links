@@ -7,6 +7,7 @@ if __name__ == '__main__':
     requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
     args = parser.parse_args()
     importlib.import_module("atmosphere")
+    importlib.import_module("deepsea")
     importlib.import_module("cfw")
     importlib.import_module("sigpatches")
     importlib.import_module("firmwares")
