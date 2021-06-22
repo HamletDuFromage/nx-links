@@ -11,6 +11,6 @@ if __name__ == '__main__':
     importlib.import_module("cfw")
     importlib.import_module("sigpatches")
     importlib.import_module("firmwares")
-    importlib.import_module("sxos")
+    #importlib.import_module("sxos")
     importlib.import_module("payloads")
     importlib.import_module("hekate")

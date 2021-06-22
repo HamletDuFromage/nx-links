@@ -18,15 +18,17 @@ config = [
         "reponame": "argon-nx",
         "assetRegex": "",
         "assetPatterns": [".*argon-nx.*\\.zip"]
-    },
-    {
-        "service": 1,
-        "username": "Reisyukaku",
-        "reponame": "ReiNX",
-        "assetRegex": "",
-        "assetPatterns": [".*ReiNX.*\\.zip"]
     }
 ]
+"""
+{
+    "service": 1,
+    "username": "Reisyukaku",
+    "reponame": "ReiNX",
+    "assetRegex": "",
+    "assetPatterns": [".*ReiNX.*\\.zip"]
+} """
+
 
 class CFW(Basemodule):
     def __init__(self, config):
