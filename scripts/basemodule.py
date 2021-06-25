@@ -57,7 +57,11 @@ class Basemodule:
 
         for i in range(len(self.config)):
             release = self.getLatestRelease(i)
-            assets = self.getAssetLinks(release, i)
+            try:
+                assets = self.getAssetLinks(release, i)
+            except TypeError:
+                print(f"In {self.config[i]['reponame']}: TypeError")
+                return
             for a in assets:
                 out[a.name] = a.browser_download_url
 
