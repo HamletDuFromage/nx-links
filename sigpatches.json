@@ -1,4 +1,4 @@
 {
-    "hekate.zip | Supports HOS firmware 12.1.0 and AMS 0.19.5": "https://github.com/ITotalJustice/patches/releases/download/12.1.0-0.19.5/hekate.zip",
-    "fusee.zip | Supports HOS firmware 12.1.0 and AMS 0.19.5": "https://github.com/ITotalJustice/patches/releases/download/12.1.0-0.19.5/fusee.zip"
+    "hekate.zip | Supports HOS firmware 12.0.3 and AMS 0.19.4": "https://github.com/ITotalJustice/patches/releases/download/12.0.3-0.19.4/hekate.zip",
+    "fusee.zip | Supports HOS firmware 12.0.3 and AMS 0.19.4": "https://github.com/ITotalJustice/patches/releases/download/12.0.3-0.19.4/fusee.zip"
 }
