@@ -29,6 +29,9 @@ class Basemodule:
                 if releases.totalCount == 0:
                     print("No available releases for: ", self.config[index]["username"], "/", self.config[index]["reponame"])
                     return None
+                for release in releases:
+                    if not release.prerelease:
+                        return release
                 return releases[0]
 
     def getAssetLink(self, release, index):
