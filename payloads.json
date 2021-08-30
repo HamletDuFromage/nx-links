@@ -1,5 +1,5 @@
 {
-    "fusee-primary.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/0.20.0/fusee-primary.bin",
+    "fusee-primary.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/0.20.1/fusee-primary.bin",
     "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.4/Lockpick_RCM.bin",
     "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.0/TegraExplorer.bin"
 }
