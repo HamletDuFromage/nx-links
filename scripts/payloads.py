@@ -11,7 +11,7 @@ config = [
         "username": "Atmosphere-NX",
         "reponame": "Atmosphere",
         "assetRegex": "",
-        "assetPatterns": [".*fusee-primary.*\\.bin"]
+        "assetPatterns": [".*fusee.*\\.bin"]
     },
     {
         "service": 1,
