@@ -73,7 +73,7 @@
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.0.0/fusee.bin",
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.4/Lockpick_RCM.bin",
-        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.0/TegraExplorer.bin"
+        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1/TegraExplorer.bin"
     },
     "hekate": {
         "hekate_ctcaer_5.6.0_Nyx_1.0.6.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.0/hekate_ctcaer_5.6.0_Nyx_1.0.6.zip"
