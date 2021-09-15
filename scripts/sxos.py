@@ -39,21 +39,8 @@ class SXOS():
                 link = res[1][i]
                 out[title] = link
 
-        change = False
-        try:
-            with open(self.path, 'r') as read_file:
-                old = json.load(read_file)
-            if old != out:
-                print("{self.path} changed")
-                change = True
-        except FileNotFoundError:
-            print("File doesn't exist")
-            change = True
-
-        if(change):
-            with open(self.path, 'w') as write_file:
-                json.dump(out, write_file, indent=4)
-            print(f"Updated {self.path}")
+        with open(self.path, 'w') as write_file:
+            json.dump(out, write_file, indent=4)
 
 
 package = SXOS()

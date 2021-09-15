@@ -31,21 +31,8 @@ class Sigpatches(Basemodule):
             for a in assets:
                 out[a.name + " | " + release.title] = a.browser_download_url
 
-        change = False
-        try:
-            with open(path, 'r') as read_file:
-                old = json.load(read_file)
-                if(json.dumps(old) != json.dumps(out)):
-                    print(path + " changed")
-                    change = True
-        except FileNotFoundError:
-            print("File doesn't exist")
-            change = True
-
-        if(change):
-            with open(path, 'w') as write_file:
-                json.dump(out, write_file, indent=4)
-            print("Updated " + path)
+        with open(path, 'w') as write_file:
+            json.dump(out, write_file, indent=4)
 
 
 package = Sigpatches(config)

@@ -37,21 +37,8 @@ class Firmwares():
             if link is not None:
                 out[links[0][i]] = link.get("href")
 
-        change = False
-        try:
-            with open(self.path, 'r') as read_file:
-                old = json.load(read_file)
-            if old != out:
-                print(f"{self.path} changed")
-                change = True
-        except FileNotFoundError:
-            print(f"error: FileNotFoundError ({self.path})")
-            change = True
-
-        if(change):
-            with open(self.path, 'w') as write_file:
-                json.dump(out, write_file, indent=4)
-            print(f"Updated {self.path}")
+        with open(self.path, 'w') as write_file:
+            json.dump(out, write_file, indent=4)
 
 
 package = Firmwares()
