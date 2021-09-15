@@ -5,7 +5,7 @@ import os
 parser = configparser.ConfigParser()
 
 config = [
-    {  
+    {
         "service": 1,
         "username": "CTCaer",
         "reponame": "hekate",
@@ -34,5 +34,6 @@ class Bootloaders(Basemodule):
     def __init__(self, config):
         self.path = "bootloaders.json"
         Basemodule.__init__(self, config)
+
 
 package = Bootloaders(config)

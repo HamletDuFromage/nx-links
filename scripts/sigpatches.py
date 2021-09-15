@@ -6,7 +6,7 @@ import json
 parser = configparser.ConfigParser()
 
 config = [
-    {  
+    {
         "service": 1,
         "username": "ITotalJustice",
         "reponame": "patches",
@@ -14,6 +14,7 @@ config = [
         "assetPatterns": [".*hekate.*\\.zip", ".*fusee.*\\.zip"]
     }
 ]
+
 
 class Sigpatches(Basemodule):
     def __init__(self, config):
@@ -23,7 +24,7 @@ class Sigpatches(Basemodule):
     def handleModule(self):
         out = {}
         path = "sigpatches.json"
-        
+
         for i in range(len(config)):
             release = self.getLatestRelease(i)
             assets = self.getAssetLinks(release, i)
@@ -45,5 +46,6 @@ class Sigpatches(Basemodule):
             with open(path, 'w') as write_file:
                 json.dump(out, write_file, indent=4)
             print("Updated " + path)
+
 
 package = Sigpatches(config)

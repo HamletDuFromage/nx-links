@@ -6,7 +6,7 @@ import json
 parser = configparser.ConfigParser()
 
 config = [
-    {  
+    {
         "service": 1,
         "username": "Atmosphere-NX",
         "reponame": "Atmosphere",
@@ -21,6 +21,7 @@ config = [
         "assetPatterns": [".*deepsea.*\\.zip"]
     }
 ]
+
 
 class Cfws(Basemodule):
     def __init__(self, config):

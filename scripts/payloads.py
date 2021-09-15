@@ -6,7 +6,7 @@ import json
 parser = configparser.ConfigParser()
 
 config = [
-    {  
+    {
         "service": 1,
         "username": "Atmosphere-NX",
         "reponame": "Atmosphere",
@@ -36,9 +36,11 @@ config = [
     }
 ]
 
+
 class payloads(Basemodule):
     def __init__(self, config):
         self.path = "payloads.json"
         Basemodule.__init__(self, config)
+
 
 package = payloads(config)

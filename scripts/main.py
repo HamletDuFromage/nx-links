@@ -1,15 +1,27 @@
 import importlib
 import argparse
+import json
+
+
+def compileMasterFile(modules):
+    out = {}
+    for module in modules:
+        with open(f"{module}.json", 'r') as module_file:
+            out[module] = json.load(module_file)
+    with open("nx-links.json", 'w') as out_file:
+        json.dump(out, out_file, indent=4)
+
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Get links for AiO-Switch-Updater")
+    parser = argparse.ArgumentParser(
+        description="Get links for AiO-Switch-Updater")
     requiredNamed = parser.add_argument_group('Require arguments')
-    requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
+    requiredNamed.add_argument(
+        '-gt', '--githubToken', help='Github Token', required=True)
     args = parser.parse_args()
-    importlib.import_module("cfws")
-    importlib.import_module("bootloaders")
-    importlib.import_module("sigpatches")
-    importlib.import_module("firmwares")
-    #importlib.import_module("sxos")
-    importlib.import_module("payloads")
-    importlib.import_module("hekate")
+    modules = ["cfws", "bootloaders", "sigpatches",
+               "firmwares", "payloads", "hekate"]
+    for module in modules:
+        importlib.import_module(module)
+
+    compileMasterFile(modules)

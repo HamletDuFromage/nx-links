@@ -15,9 +15,11 @@ config = [
     }
 ]
 
+
 class Deepsea(Basemodule):
     def __init__(self, config):
         self.path = "deepsea.json"
         Basemodule.__init__(self, config)
+
 
 package = Deepsea(config)

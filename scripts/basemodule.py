@@ -6,10 +6,13 @@ import argparse
 
 import json
 
-parser = argparse.ArgumentParser(description="Get links for AiO-Switch-Updater")
+parser = argparse.ArgumentParser(
+    description="Get links for AiO-Switch-Updater")
 requiredNamed = parser.add_argument_group('Require arguments')
-requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
+requiredNamed.add_argument('-gt', '--githubToken',
+                           help='Github Token', required=True)
 args = parser.parse_args()
+
 
 class Basemodule:
     def __init__(self, config):
@@ -18,21 +21,24 @@ class Basemodule:
         self.handleModule()
 
     def getLatestRelease(self, index):
-            gh = Github(args.githubToken)
-            if self.config[index]["service"] == 1:
-                try:
-                    repo = gh.get_repo(self.config[index]["username"] + "/" + self.config[index]["reponame"])
-                except:
-                    print("Unable to get: ", self.config[index]["username"], "/", self.config[index]["reponame"])
-                    return None
-                releases = repo.get_releases()
-                if releases.totalCount == 0:
-                    print("No available releases for: ", self.config[index]["username"], "/", self.config[index]["reponame"])
-                    return None
-                for release in releases:
-                    if not release.prerelease:
-                        return release
-                return releases[0]
+        gh = Github(args.githubToken)
+        if self.config[index]["service"] == 1:
+            try:
+                repo = gh.get_repo(
+                    self.config[index]["username"] + "/" + self.config[index]["reponame"])
+            except:
+                print("Unable to get: ",
+                      self.config[index]["username"], "/", self.config[index]["reponame"])
+                return None
+            releases = repo.get_releases()
+            if releases.totalCount == 0:
+                print("No available releases for: ",
+                      self.config[index]["username"], "/", self.config[index]["reponame"])
+                return None
+            for release in releases:
+                if not release.prerelease:
+                    return release
+            return releases[0]
 
     def getAssetLink(self, release, index):
         pattern = self.config[index]["assetRegex"]
@@ -83,4 +89,3 @@ class Basemodule:
             with open(self.path, 'w') as write_file:
                 json.dump(out, write_file, indent=4)
             print(f"Updated {self.path}")
-
