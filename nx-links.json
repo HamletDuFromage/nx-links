@@ -14,8 +14,8 @@
         "argon-nx.zip": "https://github.com/Guillem96/argon-nx/releases/download/1.1-alpha/argon-nx.zip"
     },
     "sigpatches": {
-        "hekate.zip | Supports HOS firmware 12.1.0 and AMS 1.0.0": "https://github.com/ITotalJustice/patches/releases/download/12.1.0-1.0.0/hekate.zip",
-        "fusee.zip | Supports HOS firmware 12.1.0 and AMS 1.0.0": "https://github.com/ITotalJustice/patches/releases/download/12.1.0-1.0.0/fusee.zip"
+        "hekate.zip | Supports HOS firmware 13.0.0 and AMS 1.1.0": "https://github.com/ITotalJustice/patches/releases/download/13.0.0-1.1.0-pre/hekate.zip",
+        "fusee.zip | Supports HOS firmware 13.0.0 and AMS 1.1.0": "https://github.com/ITotalJustice/patches/releases/download/13.0.0-1.1.0-pre/fusee.zip"
     },
     "firmwares": {
         "Firmware 12.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2012.1.0.zip",
