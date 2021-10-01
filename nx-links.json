@@ -10,7 +10,7 @@
         }
     },
     "bootloaders": {
-        "hekate_ctcaer_5.6.2_Nyx_1.0.7.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.2/hekate_ctcaer_5.6.2_Nyx_1.0.7.zip",
+        "hekate_ctcaer_5.6.3_Nyx_1.0.8.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.3/hekate_ctcaer_5.6.3_Nyx_1.0.8.zip",
         "argon-nx.zip": "https://github.com/Guillem96/argon-nx/releases/download/1.1-alpha/argon-nx.zip"
     },
     "sigpatches": {
@@ -77,6 +77,6 @@
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1/TegraExplorer.bin"
     },
     "hekate": {
-        "hekate_ctcaer_5.6.2_Nyx_1.0.7.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.2/hekate_ctcaer_5.6.2_Nyx_1.0.7.zip"
+        "hekate_ctcaer_5.6.3_Nyx_1.0.8.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.3/hekate_ctcaer_5.6.3_Nyx_1.0.8.zip"
     }
 }
