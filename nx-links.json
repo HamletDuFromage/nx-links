@@ -1,7 +1,7 @@
 {
     "cfws": {
         "Atmosphere": {
-            "atmosphere-1.2.1-master-fb59d0ad4+hbl-2.4.1+hbmenu-3.4.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.1/atmosphere-1.2.1-master-fb59d0ad4%2Bhbl-2.4.1%2Bhbmenu-3.4.1.zip"
+            "atmosphere-1.2.2-master-b9c90b923+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.2/atmosphere-1.2.2-master-b9c90b923%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
         },
         "DeepSea": {
             "deepsea-advanced_v3.3.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.3.0/deepsea-advanced_v3.3.0.zip",
@@ -73,7 +73,7 @@
         "[China Firmware] Firmware 10.1.1": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2010.1.1.zip"
     },
     "payloads": {
-        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.1/fusee.bin",
+        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.2/fusee.bin",
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.6/Lockpick_RCM.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1/TegraExplorer.bin"
     },
