@@ -4,9 +4,9 @@
             "atmosphere-1.2.2-master-b9c90b923+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.2/atmosphere-1.2.2-master-b9c90b923%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
         },
         "DeepSea": {
-            "deepsea-advanced_v3.3.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.3.0/deepsea-advanced_v3.3.0.zip",
-            "deepsea-minimal_v3.3.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.3.0/deepsea-minimal_v3.3.0.zip",
-            "deepsea-normal_v3.3.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.3.0/deepsea-normal_v3.3.0.zip"
+            "deepsea-advanced_v3.3.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.3.1/deepsea-advanced_v3.3.1.zip",
+            "deepsea-minimal_v3.3.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.3.1/deepsea-minimal_v3.3.1.zip",
+            "deepsea-normal_v3.3.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.3.1/deepsea-normal_v3.3.1.zip"
         }
     },
     "bootloaders": {
