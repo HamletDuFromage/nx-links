@@ -18,6 +18,7 @@
         "fusee.zip | Supports HOS firmware 13.2.0 and AMS 1.2.5": "https://github.com/ITotalJustice/patches/releases/download/13.2.0-1.2.5/fusee.zip"
     },
     "firmwares": {
+        "Firmware 13.2.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.2.0.zip",
         "Firmware 13.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.1.0.zip",
         "Firmware 13.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.0.0.zip",
         "Firmware 12.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2012.1.0.zip",
