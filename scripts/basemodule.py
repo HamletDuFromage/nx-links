@@ -1,6 +1,5 @@
 from pathlib import Path
 from github import Github
-import urllib.request
 import re
 import argparse
 
@@ -14,13 +13,14 @@ requiredNamed.add_argument('-gt', '--githubToken',
 args = parser.parse_args()
 
 
-class Basemodule:
-    def __init__(self, config):
+class BaseModule:
+    def __init__(self, config = {}):
         print("Init module: ", self.__module__)
-        self.config = config
-        self.handleModule()
+        self.path = self.__module__ + ".json"
+        self.out = {}
+        self.handle_module()
 
-    def getLatestRelease(self, index):
+    def get_latest_release(self, index):
         gh = Github(args.githubToken)
         if self.config[index]["service"] == 1:
             try:
@@ -40,7 +40,7 @@ class Basemodule:
                     return release
             return releases[0]
 
-    def getAssetLink(self, release, index):
+    def get_asset_link(self, release, index):
         pattern = self.config[index]["assetRegex"]
         assets = []
         if self.config[index]["service"] == 1:
@@ -54,25 +54,24 @@ class Basemodule:
                     assets.append(matched_asset)
             return assets
 
-    def getAssetLinks(self, release, index):
+    def get_asset_links(self, release, index):
         assetPaths = []
         for pattern in self.config[index]["assetPatterns"]:
             self.config[index]["assetRegex"] = pattern
-            assetPaths += self.getAssetLink(release, index)
+            assetPaths += self.get_asset_link(release, index)
         return assetPaths
 
-    def handleModule(self):
-        out = {}
-
+    def handle_module(self):
         for i in range(len(self.config)):
-            release = self.getLatestRelease(i)
+            release = self.get_latest_release(i)
             try:
-                assets = self.getAssetLinks(release, i)
+                assets = self.get_asset_links(release, i)
             except TypeError:
                 print(f"In {self.config[i]['reponame']}: TypeError")
                 return
             for a in assets:
-                out[a.name] = a.browser_download_url
+                self.out[a.name] = a.browser_download_url
 
+    def write_json(self):
         with open(self.path, 'w') as write_file:
-            json.dump(out, write_file, indent=4)
+            json.dump(self.out, write_file, indent=4)

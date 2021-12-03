@@ -8,7 +8,7 @@ url = "https://sx.xecuter.com/#prod-sxos"
 class SXOS():
     def __init__(self):
         self.path = "sxos.json"
-        self.handleModule()
+        self.handle_module()
 
     def fetch_sxos_links(self, url):
         try:
@@ -29,7 +29,7 @@ class SXOS():
             titles[i] = str(section[i].contents[1]).replace("download ", "")
         return [titles, links]
 
-    def handleModule(self):
+    def handle_module(self):
         print("Init module: ", self.__module__)
         out = {}
         res = self.fetch_sxos_links(url)

@@ -1,15 +1,13 @@
-import importlib
 import argparse
 import json
 
-
-def compileMasterFile(modules):
-    out = {}
-    for module in modules:
-        with open(f"{module}.json", 'r') as module_file:
-            out[module] = json.load(module_file)
-    with open("nx-links.json", 'w') as out_file:
-        json.dump(out, out_file, indent=4)
+import bootloaders
+import cfws
+import deepsea
+import firmwares
+import hekate
+import payloads
+import sigpatches
 
 
 if __name__ == '__main__':
@@ -19,10 +17,19 @@ if __name__ == '__main__':
     requiredNamed.add_argument(
         '-gt', '--githubToken', help='Github Token', required=True)
     args = parser.parse_args()
-    """ modules = ["cfws", "bootloaders", "sigpatches",
-               "firmwares", "payloads", "hekate"] """
-    modules = ["firmwares"]
-    for module in modules:
-        importlib.import_module(module)
 
-    compileMasterFile(modules)
+    out = {}
+    modules = [
+        bootloaders.Bootloaders(),
+        cfws.Cfws(),
+        deepsea.Deepsea(),
+        hekate.Hekate(),
+        payloads.Payloads(),
+        sigpatches.Sigpatches(),
+        firmwares.Firmwares()
+    ]
+    for module in modules:
+        out[module.__module__] = module.out
+
+    with open("nx-links.json", 'w') as out_file:
+        json.dump(out, out_file, indent=4)

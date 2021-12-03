@@ -1,4 +1,35 @@
 {
+    "bootloaders": {
+        "hekate_ctcaer_5.6.5_Nyx_1.1.1.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.5/hekate_ctcaer_5.6.5_Nyx_1.1.1.zip",
+        "argon-nx.zip": "https://github.com/Guillem96/argon-nx/releases/download/1.1-alpha/argon-nx.zip"
+    },
+    "cfws": {
+        "Atmosphere": {
+            "atmosphere-1.2.5-master-1019bc54e+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.5/atmosphere-1.2.5-master-1019bc54e%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
+        },
+        "DeepSea": {
+            "deepsea-advanced_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-advanced_v3.4.1.zip",
+            "deepsea-minimal_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-minimal_v3.4.1.zip",
+            "deepsea-normal_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-normal_v3.4.1.zip"
+        }
+    },
+    "deepsea": {
+        "deepsea-advanced_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-advanced_v3.4.1.zip",
+        "deepsea-minimal_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-minimal_v3.4.1.zip",
+        "deepsea-normal_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-normal_v3.4.1.zip"
+    },
+    "hekate": {
+        "hekate_ctcaer_5.6.5_Nyx_1.1.1.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.5/hekate_ctcaer_5.6.5_Nyx_1.1.1.zip"
+    },
+    "payloads": {
+        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.5/fusee.bin",
+        "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.6/Lockpick_RCM.bin",
+        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1/TegraExplorer.bin"
+    },
+    "sigpatches": {
+        "hekate.zip | Supports HOS firmware 13.2.0 and AMS 1.2.5": "https://github.com/ITotalJustice/patches/releases/download/13.2.0-1.2.5/hekate.zip",
+        "fusee.zip | Supports HOS firmware 13.2.0 and AMS 1.2.5": "https://github.com/ITotalJustice/patches/releases/download/13.2.0-1.2.5/fusee.zip"
+    },
     "firmwares": {
         "Firmware 13.2.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.2.0.zip",
         "Firmware 13.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.1.0.zip",
