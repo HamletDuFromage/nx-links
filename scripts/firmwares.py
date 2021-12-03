@@ -1,4 +1,5 @@
 import internetarchive as ia
+import re
 from basemodule import BaseModule
 import urllib.parse
 
