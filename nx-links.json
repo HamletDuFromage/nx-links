@@ -13,11 +13,6 @@
             "deepsea-normal_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-normal_v3.4.1.zip"
         }
     },
-    "deepsea": {
-        "deepsea-advanced_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-advanced_v3.4.1.zip",
-        "deepsea-minimal_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-minimal_v3.4.1.zip",
-        "deepsea-normal_v3.4.1.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.1/deepsea-normal_v3.4.1.zip"
-    },
     "hekate": {
         "hekate_ctcaer_5.6.5_Nyx_1.1.1.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.5/hekate_ctcaer_5.6.5_Nyx_1.1.1.zip"
     },
