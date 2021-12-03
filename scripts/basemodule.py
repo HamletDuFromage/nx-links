@@ -2,7 +2,6 @@ from pathlib import Path
 from github import Github
 import re
 import argparse
-
 import json
 
 parser = argparse.ArgumentParser(

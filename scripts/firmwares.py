@@ -1,5 +1,4 @@
 import internetarchive as ia
-import regex as re
 from basemodule import BaseModule
 import urllib.parse
 
