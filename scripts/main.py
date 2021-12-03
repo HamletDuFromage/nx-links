@@ -3,7 +3,6 @@ import json
 
 import bootloaders
 import cfws
-import deepsea
 import firmwares
 import hekate
 import payloads
@@ -22,7 +21,6 @@ if __name__ == '__main__':
     modules = [
         bootloaders.Bootloaders(),
         cfws.Cfws(),
-        deepsea.Deepsea(),
         hekate.Hekate(),
         payloads.Payloads(),
         sigpatches.Sigpatches(),
