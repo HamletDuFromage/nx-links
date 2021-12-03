@@ -19,8 +19,9 @@ if __name__ == '__main__':
     requiredNamed.add_argument(
         '-gt', '--githubToken', help='Github Token', required=True)
     args = parser.parse_args()
-    modules = ["cfws", "bootloaders", "sigpatches",
-               "firmwares", "payloads", "hekate"]
+    """ modules = ["cfws", "bootloaders", "sigpatches",
+               "firmwares", "payloads", "hekate"] """
+    modules = ["firmwares"]
     for module in modules:
         importlib.import_module(module)
 

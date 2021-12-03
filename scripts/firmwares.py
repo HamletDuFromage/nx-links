@@ -1,44 +1,46 @@
 from bs4 import BeautifulSoup
 import requests
+import internetarchive as ia
+import regex as re
+import urllib.parse
 import json
-
-url = "https://darthsternie.net/switch-firmwares/"
-
 
 class Firmwares():
     def __init__(self):
+        self.collections = [
+            {"title": "nintendo-switch-global-firmwares", "prefix": ""},
+            {"title": "nintendo-switch-china-firmwares", "prefix": "[China Firmware] "}
+        ]
         self.path = "firmwares.json"
+        self.url = "https://archive.org/download/"
         self.handleModule()
 
-    def getContent(self, tag):
-        return tag.contents[0]
-
-    def fetch_dl_links(self, url):
-        page = requests.get(url)
-        soup = BeautifulSoup(page.content, "html.parser")
-        table = soup.find_all("tbody")
-        titles = list(
-            map(self.getContent, (table[0].find_all("td", {"class": "column-1"}))))
-        links = table[0].find_all("td", {"class": "column-5"})
-        china_titles = list(
-            map(self.getContent, table[1].find_all("td", {"class": "column-1"})))
-        for i in range(len(china_titles)):
-            china_titles[i] = f"[China Firmware] {china_titles[i]}"
-        china_links = table[1].find_all("td", {"class": "column-5"})
-        return [titles + china_titles, links + china_links]
+    def sort_firmwares(self, file):
+        match = re.match(r"Firmware ([\d\.]+).*\.zip", file["name"])
+        res = 0
+        if match:
+            ver = match[1].split(".")
+            for i in range(len(ver)):
+                res += (100**(len(ver) -1 - i)) * int(ver[i])
+        else:
+            res = 0
+        return res
 
     def handleModule(self):
         print("Init module: ", self.__module__)
         out = {}
-
-        links = self.fetch_dl_links(url)
-        for i in range(len(links[0])):
-            link = links[1][i].find("a")
-            if link is not None:
-                out[links[0][i]] = link.get("href")
+        for collection in self.collections:
+            item = ia.get_item(collection["title"])
+            #files = sorted(item.files, key=lambda d: d.get("mtime", "0"), reverse=True)
+            files = sorted(item.files, key=self.sort_firmwares, reverse=True)
+            for file in files:
+                match = re.match(r"(Firmware.+)\.zip", file["name"])
+                if match:
+                    download = self.url + collection["title"] + "/" + file['name']
+                    out[collection["prefix"] + match[1]] = urllib.parse.quote(download, safe=":/")
 
         with open(self.path, 'w') as write_file:
-            json.dump(out, write_file, indent=4)
+            json.dump(out, write_file, indent=4, sort_keys=False)
 
 
 package = Firmwares()
