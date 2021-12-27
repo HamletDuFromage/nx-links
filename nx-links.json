@@ -16,11 +16,7 @@
     "hekate": {
         "hekate_ctcaer_5.6.5_Nyx_1.1.1.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.5/hekate_ctcaer_5.6.5_Nyx_1.1.1.zip"
     },
-    "payloads": {
-        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.5/fusee.bin",
-        "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.6/Lockpick_RCM.bin",
-        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1/TegraExplorer.bin"
-    },
+    "payloads": {},
     "sigpatches": {
         "hekate.zip | Supports HOS firmware 13.2.0 and AMS 1.2.5": "https://github.com/ITotalJustice/patches/releases/download/13.2.0-1.2.5/hekate.zip",
         "fusee.zip | Supports HOS firmware 13.2.0 and AMS 1.2.5": "https://github.com/ITotalJustice/patches/releases/download/13.2.0-1.2.5/fusee.zip"
