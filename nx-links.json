@@ -13,9 +13,7 @@
             "deepsea-normal_v3.4.2.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.4.2/deepsea-normal_v3.4.2.zip"
         }
     },
-    "hekate": {
-        "hekate_ctcaer_5.6.5_Nyx_1.1.1.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.5/hekate_ctcaer_5.6.5_Nyx_1.1.1.zip"
-    },
+    "hekate": {},
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.5/fusee.bin",
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.6/Lockpick_RCM.bin",
