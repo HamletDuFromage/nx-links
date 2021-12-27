@@ -1,5 +1,8 @@
 {
-    "bootloaders": {},
+    "bootloaders": {
+        "hekate_ctcaer_5.6.5_Nyx_1.1.1.zip": "https://github.com/CTCaer/hekate/releases/download/v5.6.5/hekate_ctcaer_5.6.5_Nyx_1.1.1.zip",
+        "argon-nx.zip": "https://github.com/Guillem96/argon-nx/releases/download/1.1-alpha/argon-nx.zip"
+    },
     "cfws": {
         "Atmosphere": {
             "atmosphere-1.2.5-master-1019bc54e+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.5/atmosphere-1.2.5-master-1019bc54e%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
