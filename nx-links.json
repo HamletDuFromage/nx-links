@@ -21,7 +21,9 @@
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.6/Lockpick_RCM.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1/TegraExplorer.bin"
     },
-    "sigpatches": {},
+    "sigpatches": {
+        "SigPatches.zip": "https://github.com/ITotalJustice/patches/releases/download/13.2.1-1.2.6/SigPatches.zip"
+    },
     "firmwares": {
         "Firmware 13.2.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.2.0.zip",
         "Firmware 13.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.1.0.zip",

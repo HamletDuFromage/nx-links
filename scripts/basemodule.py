@@ -1,4 +1,3 @@
-from pathlib import Path
 from github import Github
 import re
 import argparse
@@ -13,7 +12,7 @@ args = parser.parse_args()
 
 
 class BaseModule:
-    def __init__(self, config = {}):
+    def __init__(self, config={}):
         print("Init module: ", self.__module__)
         self.path = self.__module__ + ".json"
         self.out = {}

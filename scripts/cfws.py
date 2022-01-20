@@ -1,5 +1,4 @@
 from basemodule import BaseModule
-import configparser
 
 
 class Cfws(BaseModule):

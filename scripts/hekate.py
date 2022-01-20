@@ -1,6 +1,4 @@
 from basemodule import BaseModule
-import configparser
-parser = configparser.ConfigParser()
 
 
 class Hekate(BaseModule):
