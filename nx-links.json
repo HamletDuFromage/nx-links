@@ -22,7 +22,7 @@
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1/TegraExplorer.bin"
     },
     "sigpatches": {
-        "SigPatches.zip": "https://github.com/ITotalJustice/patches/releases/download/13.2.1-1.2.6/SigPatches.zip"
+        "Supports HOS firmware 13.2.1 and AMS 1.2.6": "https://github.com/ITotalJustice/patches/releases/download/13.2.1-1.2.6/SigPatches.zip"
     },
     "firmwares": {
         "Firmware 13.2.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.2.0.zip",
