@@ -9,7 +9,7 @@ class Sigpatches(BaseModule):
                 "username": "ITotalJustice",
                 "reponame": "patches",
                 "assetRegex": "",
-                "assetPatterns": [".*hekate.*\\.zip", ".*fusee.*\\.zip"]
+                "assetPatterns": [".*SigPatches.*\\.zip"]
             }
         ]
         BaseModule.__init__(self)
