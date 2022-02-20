@@ -6,4 +6,4 @@ class HekateIpl(BaseModule):
         BaseModule.__init__(self)
 
     def handle_module(self):
-        self.out["hekate_ipl"] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"
+        self.out["hekate_ipl.ini"] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"

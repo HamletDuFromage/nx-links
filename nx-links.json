@@ -82,6 +82,6 @@
         "[China Firmware] Firmware 10.1.1": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2010.1.1.zip"
     },
     "hekate_ipl": {
-        "hekate_ipl": "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"
+        "hekate_ipl.ini": "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"
     }
 }
