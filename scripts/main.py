@@ -7,6 +7,7 @@ import firmwares
 import hekate
 import payloads
 import sigpatches
+import hekate_ipl
 
 
 if __name__ == '__main__':
@@ -24,7 +25,8 @@ if __name__ == '__main__':
         hekate.Hekate(),
         payloads.Payloads(),
         sigpatches.Sigpatches(),
-        firmwares.Firmwares()
+        firmwares.Firmwares(),
+        hekate_ipl.HekateIpl()
     ]
     for module in modules:
         out[module.__module__] = module.out
