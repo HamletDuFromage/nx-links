@@ -24,13 +24,6 @@ class Payloads(BaseModule):
                 "reponame": "TegraExplorer",
                 "assetRegex": "",
                 "assetPatterns": [".*TegraExplorer.*\\.bin"]
-            },
-            {
-                "service": 1,
-                "username": "jimzrt",
-                "reponame": "Incognito_RCM",
-                "assetRegex": "",
-                "assetPatterns": [".* Incognito_RCM.*\\.bin"]
             }
         ]
         BaseModule.__init__(self)
