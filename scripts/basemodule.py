@@ -33,9 +33,10 @@ class BaseModule:
                 print("No available releases for: ",
                       self.config[index]["username"], "/", self.config[index]["reponame"])
                 return None
-            for release in releases:
-                if not release.prerelease:
-                    return release
+            if self.config[index].get("prerelease", False) == False:
+                for release in releases:
+                    if not release.prerelease:
+                        return release
             return releases[0]
 
     def get_asset_link(self, release, index):

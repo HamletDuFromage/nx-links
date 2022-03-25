@@ -13,6 +13,14 @@ class Cfws(BaseModule):
             },
             {
                 "service": 1,
+                "username": "Atmosphere-NX",
+                "reponame": "Atmosphere",
+                "assetRegex": "",
+                "prerelease": True,
+                "assetPatterns": [".*atmosphere.*\\.zip"]
+            },
+            {
+                "service": 1,
                 "username": "Team-Neptune",
                 "reponame": "DeepSea",
                 "assetRegex": "",
