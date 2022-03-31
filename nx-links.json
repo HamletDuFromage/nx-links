@@ -5,8 +5,7 @@
     },
     "cfws": {
         "Atmosphere": {
-            "atmosphere-1.2.6-master-173d5c2d3+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.6/atmosphere-1.2.6-master-173d5c2d3%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip",
-            "atmosphere-1.3.0-prerelease-b69fa1357+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.3.0/atmosphere-1.3.0-prerelease-b69fa1357%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
+            "atmosphere-1.2.6-master-173d5c2d3+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.2.6/atmosphere-1.2.6-master-173d5c2d3%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
         },
         "DeepSea": {
             "deepsea-advanced_v3.5.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v3.5.0/deepsea-advanced_v3.5.0.zip",
