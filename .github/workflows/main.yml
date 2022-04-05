@@ -1,41 +1,41 @@
 name: update_files
 
 on:
-  schedule: 
-    - cron:  '*/5 * * * *'
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
   nx-links:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v2
-        
-    - name: Set up Python 3.x
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.x
+      - uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        if [ -f ./scripts/requirements.txt ]; then pip3 install -r ./scripts/requirements.txt; fi
-        
-    - name: update files
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: | 
-        python3 ./scripts/main.py -gt="$GITHUB_TOKEN"
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.x
 
-    - name: push changes
-      run: |
-        git config --global user.name 'HomletBot'
-        git config --global user.email '61667930+HamletDuFromage@users.noreply.github.com'
-        CHANGED=$(git diff --name-only)  
-        git add .
-        if [[ `git status --porcelain` ]]; then
-          git commit -m "automatic: updated files ($CHANGED)"
-          git push
-        else
-          echo "Nothing to commit!"
-        fi
+      - name: Install dependencies
+        run: |
+          if [ -f ./scripts/requirements.txt ]; then pip3 install -r ./scripts/requirements.txt; fi
+
+      - name: update files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 ./scripts/main.py -gt="$GITHUB_TOKEN"
+
+      - name: push changes
+        run: |
+          git config --global user.name 'HomletBot'
+          git config --global user.email '90281142+Homletbot@users.noreply.github.com'
+          CHANGED=$(git diff --name-only)
+          git add .
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "automatic: updated files ($CHANGED)"
+            git push
+          else
+            echo "Nothing to commit!"
+          fi
