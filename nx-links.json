@@ -5,7 +5,7 @@
     },
     "cfws": {
         "Atmosphere": {
-            "atmosphere-1.3.0-master-b69fa1357+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.3.0/atmosphere-1.3.0-master-b69fa1357%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
+            "atmosphere-1.3.1-master-62eb4d698+hbl-2.4.1+hbmenu-3.5.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.3.1/atmosphere-1.3.1-master-62eb4d698%2Bhbl-2.4.1%2Bhbmenu-3.5.0.zip"
         },
         "DeepSea": {
             "deepsea-advanced_v4.0.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.0.0/deepsea-advanced_v4.0.0.zip",
@@ -17,7 +17,7 @@
         "hekate_ctcaer_5.7.2_Nyx_1.2.2.zip": "https://github.com/CTCaer/hekate/releases/download/v5.7.2/hekate_ctcaer_5.7.2_Nyx_1.2.2.zip"
     },
     "payloads": {
-        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.3.0/fusee.bin",
+        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.3.1/fusee.bin",
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.8/Lockpick_RCM.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix2/TegraExplorer.bin"
     },
