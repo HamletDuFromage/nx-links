@@ -25,6 +25,7 @@
         "Supports HOS firmware 14.1.0 and AMS 1.3.1": "https://github.com/ITotalJustice/patches/releases/download/14.1.0-1.3.1/SigPatches.zip"
     },
     "firmwares": {
+        "Firmware 14.1.1": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.1.1.zip",
         "Firmware 14.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.1.0.zip",
         "Firmware 14.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.0.0.zip",
         "Firmware 13.2.1": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.2.1.zip",
