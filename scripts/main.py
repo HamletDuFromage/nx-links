@@ -18,7 +18,13 @@ if __name__ == '__main__':
         '-gt', '--githubToken', help='Github Token', required=True)
     args = parser.parse_args()
 
-    out = {}
+    json_file = "nx-links.json"
+    try:
+        with open(json_file, "r") as old_file:
+            out = json.load(old_file)
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
+        out = {}
+
     modules = [
         bootloaders.Bootloaders(),
         cfws.Cfws(),
@@ -29,7 +35,10 @@ if __name__ == '__main__':
         hekate_ipl.HekateIpl()
     ]
     for module in modules:
-        out[module.__module__] = module.out
+        if module.out == {}:
+            print(f"Module {module.__module__} returned an empty dict. It will be skipped.")
+        else:
+            out[module.__module__] = module.out
 
-    with open("nx-links.json", 'w') as out_file:
+    with open(json_file, 'w') as out_file:
         json.dump(out, out_file, indent=4)
