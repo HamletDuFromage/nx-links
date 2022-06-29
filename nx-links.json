@@ -25,6 +25,8 @@
         "Supports HOS firmware 14.1.0+ and AMS 1.3.2": "https://github.com/ITotalJustice/patches/releases/download/14.1.0-1.3.2/SigPatches.zip"
     },
     "firmwares": {
+        "[archive.org] Firmware 14.1.2 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.1.2%20%28Rebootless%20Update%29.zip",
+        "[mega.nz] Firmware 14.1.2 (Rebootless Update)": "https://mega.nz/file/ZJQ1WDCI#sKNXu8MAJIAC824cPEM6DD5xjBvGnc3bzjLEa6bneWw",
         "[archive.org] Firmware 14.1.2": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.1.2.zip",
         "[mega.nz] Firmware 14.1.2": "https://mega.nz/file/1YhhiJDB#uoD_5bSr2-AeF1bk5VFgeIux-KG5KNIovkpzwLak1MQ",
         "[archive.org] Firmware 14.1.1": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.1.1.zip",
@@ -33,8 +35,8 @@
         "[mega.nz] Firmware 14.1.0": "https://mega.nz/file/YIonGbxR#Ca49NIXk6ktJPmwaqazxDCypA_WsYmizNjFFijmxhv0",
         "[archive.org] Firmware 14.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.0.0.zip",
         "[mega.nz] Firmware 14.0.0": "https://mega.nz/file/wEJi0IRQ#p1S-t8LkSUa5xjDoCc_brveXlk6JniZVcmRLCVt-x_8",
-        "[archive.org] Firmware 13.2.1": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2013.2.1.zip",
-        "[mega.nz] Firmware 13.2.1": "https://mega.nz/file/xYYkyT7K#I0Xr60_co04X_JWUirfVyswg0pR_XnlxeIDMK5YHEYQ",
+        "[archive.org] [China fw] Firmware 14.1.2 (Rebootless Update)": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2014.1.2%20%28Rebootless%20Update%29.zip",
+        "[mega.nz] [China fw] Firmware 14.1.2 (Rebootless Update)": "https://mega.nz/file/ZIwQWCCY#_N-oLQfSvdH_BJ6snf48FngS7eFsIx6gVGZMMQp6MVI",
         "[archive.org] [China fw] Firmware 14.1.2": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2014.1.2.zip",
         "[mega.nz] [China fw] Firmware 14.1.2": "https://mega.nz/file/kJRyEALI#9BwMfPvDhxUdVAa6cP8dy7Na1-yWvRYufBHUG8lQpa0",
         "[archive.org] [China fw] Firmware 14.1.1": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2014.1.1.zip",
@@ -42,9 +44,7 @@
         "[archive.org] [China fw] Firmware 14.1.0": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2014.1.0.zip",
         "[mega.nz] [China fw] Firmware 14.1.0": "https://mega.nz/file/RJJ03TzK#vvIeICrh8Hc0HIg4j-tfxXf2PsHOpTHHmGusZAcUvwE",
         "[archive.org] [China fw] Firmware 14.0.0": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2014.0.0.zip",
-        "[mega.nz] [China fw] Firmware 14.0.0": "https://mega.nz/file/kJYB1ZAR#A5bdf3NfP6TCu7ekM0oQCHtx70CwuFedeRmUHK5DgWY",
-        "[archive.org] [China fw] Firmware 13.2.1": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2013.2.1.zip",
-        "[mega.nz] [China fw] Firmware 13.2.1": "https://mega.nz/file/4RAkUBAT#6MBFN1Kam_-BeNOipBOCRULLLtBGRuSuSwCoXr62ybs"
+        "[mega.nz] [China fw] Firmware 14.0.0": "https://mega.nz/file/kJYB1ZAR#A5bdf3NfP6TCu7ekM0oQCHtx70CwuFedeRmUHK5DgWY"
     },
     "hekate_ipl": {
         "hekate_ipl.ini": "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"
