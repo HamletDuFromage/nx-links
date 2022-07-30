@@ -5,7 +5,6 @@ class Hekate(BaseModule):
     def __init__(self):
         self.config = [
             {
-                "service": 1,
                 "username": "CTCaer",
                 "reponame": "hekate",
                 "assetRegex": "",

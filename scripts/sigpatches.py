@@ -5,7 +5,6 @@ class Sigpatches(BaseModule):
     def __init__(self):
         self.config = [
             {
-                "service": 1,
                 "username": "ITotalJustice",
                 "reponame": "patches",
                 "assetRegex": "",

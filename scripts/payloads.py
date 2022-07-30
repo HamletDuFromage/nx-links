@@ -5,21 +5,18 @@ class Payloads(BaseModule):
     def __init__(self):
         self.config = [
             {
-                "service": 1,
                 "username": "Atmosphere-NX",
                 "reponame": "Atmosphere",
                 "assetRegex": "",
                 "assetPatterns": [".*fusee.*\\.bin"]
             },
             {
-                "service": 1,
                 "username": "shchmue",
                 "reponame": "Lockpick_RCM",
                 "assetRegex": "",
                 "assetPatterns": [".*Lockpick_RCM.*\\.bin"]
             },
             {
-                "service": 1,
                 "username": "suchmememanyskill",
                 "reponame": "TegraExplorer",
                 "assetRegex": "",
