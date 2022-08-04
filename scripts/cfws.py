@@ -5,20 +5,9 @@ class Cfws(BaseModule):
     def __init__(self):
         self.config = [
             {
-                "username": "Atmosphere-NX",
-                "reponame": "Atmosphere",
-                "assetPatterns": [".*atmosphere.*\\.zip"]
-            },
-            {
-                "username": "Atmosphere-NX",
-                "reponame": "Atmosphere",
-                "prerelease": True,
-                "assetPatterns": [".*atmosphere.*\\.zip"]
-            },
-            {
-                "username": "Team-Neptune",
-                "reponame": "DeepSea",
-                "assetPatterns": [".*deepsea.*\\.zip"]
+                "username": "THZoria",
+                "reponame": "AtmoPack-Vanilla",
+                "assetPatterns": [".*AtmoPack-Vanilla_Latest.*\\.zip"]
             }
         ]
         BaseModule.__init__(self)

@@ -5,10 +5,10 @@ class Sigpatches(BaseModule):
     def __init__(self):
         self.config = [
             {
-                "username": "ITotalJustice",
-                "reponame": "patches",
+                "username": "PHRetroGamers",
+                "reponame": "signature_gpd",
                 "assetRegex": "",
-                "assetPatterns": [".*SigPatches.*\\.zip"]
+                "assetPatterns": [".*signature_gpd.*\\.zip"]
             }
         ]
         BaseModule.__init__(self)

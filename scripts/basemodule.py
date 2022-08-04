@@ -4,7 +4,7 @@ import argparse
 import json
 
 parser = argparse.ArgumentParser(
-    description="Get links for AiO-Switch-Updater")
+    description="Get links for AtmoPackUpdater")
 requiredNamed = parser.add_argument_group('Require arguments')
 requiredNamed.add_argument('-gt', '--githubToken',
                            help='Github Token', required=True)
