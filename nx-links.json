@@ -4,13 +4,8 @@
         "argon-nx.zip": "https://github.com/Guillem96/argon-nx/releases/download/1.1-alpha/argon-nx.zip"
     },
     "cfws": {
-        "Atmosphere": {
-            "atmosphere-1.3.2-master-e96972c93+hbl-2.4.1+hbmenu-3.5.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.3.2/atmosphere-1.3.2-master-e96972c93%2Bhbl-2.4.1%2Bhbmenu-3.5.1.zip"
-        },
-        "DeepSea": {
-            "deepsea-advanced_v4.2.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.2.0/deepsea-advanced_v4.2.0.zip",
-            "deepsea-minimal_v4.2.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.2.0/deepsea-minimal_v4.2.0.zip",
-            "deepsea-normal_v4.2.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.2.0/deepsea-normal_v4.2.0.zip"
+        "AtmoPack-Vanilla": {
+            "AtmoPack-Vanilla_Latest.zip": "https://github.com/THZoria/AtmoPack-Vanilla/releases/download/v2.2.4/AtmoPack-Vanilla_Latest.zip"
         }
     },
     "hekate": {
@@ -21,7 +16,9 @@
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.8/Lockpick_RCM.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix2/TegraExplorer.bin"
     },
-    "sigpatches": {},
+    "sigpatches": {
+        "signature_gpd 0.0.1": "https://github.com/PHRetroGamers/signature_gpd/releases/download/0.0.1/signature_gpd.zip"
+    },
     "firmwares": {
         "[archive.org] Firmware 14.1.2 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2014.1.2%20%28Rebootless%20Update%29.zip",
         "[mega.nz] Firmware 14.1.2 (Rebootless Update)": "https://mega.nz/file/ZJQ1WDCI#sKNXu8MAJIAC824cPEM6DD5xjBvGnc3bzjLEa6bneWw",
