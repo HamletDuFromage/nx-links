@@ -14,13 +14,9 @@ if __name__ == '__main__':
         out = {}
 
     modules = [
-        bootloaders.Bootloaders(),
         cfws.Cfws(),
-        hekate.Hekate(),
-        payloads.Payloads(),
         sigpatches.Sigpatches(),
         firmwares.Firmwares(),
-        hekate_ipl.HekateIpl()
     ]
     for module in modules:
         if module.out == {}:
