@@ -1,9 +1,13 @@
 import json
 
-import ams_cfw
+import bootloaders
+import cfws
 import firmwares
+import hekate
+import payloads
 import sigpatches
-import app
+import hekate_ipl
+
 
 if __name__ == '__main__':
 
@@ -15,10 +19,13 @@ if __name__ == '__main__':
         out = {}
 
     modules = [
-        ams_cfw.Ams_cfw(),
+        bootloaders.Bootloaders(),
+        cfws.Cfws(),
+        hekate.Hekate(),
+        payloads.Payloads(),
         sigpatches.Sigpatches(),
         firmwares.Firmwares(),
-        app.App()
+        hekate_ipl.HekateIpl()
     ]
     for module in modules:
         if module.out == {}:

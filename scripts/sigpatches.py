@@ -7,6 +7,7 @@ class Sigpatches(BaseModule):
             {
                 "username": "PHRetroGamers",
                 "reponame": "signature_gpd",
+                "assetRegex": "",
                 "assetPatterns": [".*signature_gpd.*\\.zip"]
             }
         ]
@@ -18,4 +19,3 @@ class Sigpatches(BaseModule):
             assets = self.get_asset_links(release, i)
             for asset in assets:
                 self.out[release.title] = asset.browser_download_url
-            self.out["version"] = release.tag_name
