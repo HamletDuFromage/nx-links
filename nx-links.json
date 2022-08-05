@@ -1,8 +1,10 @@
 {
     "cfws": {
+        "version": "v2.2.4",
         "Pack Atmosphere 1.3.2 Hekate 5.8.0 & Sigpatch FW 14.1.2": "https://github.com/THZoria/AtmoPack-Vanilla/releases/download/v2.2.4/AtmoPack-Vanilla_Latest.zip"
     },
     "sigpatches": {
+        "version": "0.0.1",
         "signature_gpd 0.0.1": "https://github.com/PHRetroGamers/signature_gpd/releases/download/0.0.1/signature_gpd.zip"
     },
     "firmwares": {
