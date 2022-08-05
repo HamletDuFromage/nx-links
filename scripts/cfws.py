@@ -1,6 +1,5 @@
 from basemodule import BaseModule
 
-
 class Cfws(BaseModule):
     def __init__(self):
         self.config = [
