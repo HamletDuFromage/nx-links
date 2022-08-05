@@ -12,8 +12,7 @@ class Cfws(BaseModule):
         BaseModule.__init__(self)
 
     def handle_module(self):
-        for i in range(len(self.config)):
-            release = self.get_latest_release(i)
-            assets = self.get_asset_links(release, i)
-            for asset in assets:
-                self.out[release.title] = asset.browser_download_url
+        release = self.get_latest_release(0)
+        assets = self.get_asset_links(release, self.config[0]["assetPatterns"][0])
+        self.out[release.title] = asset[0].browser_download_url
+        self.out["version"] = release.tag_name
