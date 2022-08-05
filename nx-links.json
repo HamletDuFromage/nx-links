@@ -7,5 +7,6 @@
     },
     "firmwares": {
         "Firmware 14.1.2 (Rebootless Update 2)": "https://github.com/THZoria/NX_Firmware/releases/download/14.1.2r2/Firmware.14.1.2.Rebootless.Update.2.zip"
-    }
+    },
+    "app": {}
 }
