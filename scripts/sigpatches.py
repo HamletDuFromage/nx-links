@@ -16,6 +16,6 @@ class Sigpatches(BaseModule):
         for i in range(len(self.config)):
             release = self.get_latest_release(i)
             assets = self.get_asset_links(release, i)
-            self.out["version"] = release.tag_name
             for asset in assets:
                 self.out[release.title] = asset.browser_download_url
+            self.out["version"] = release.tag_name
