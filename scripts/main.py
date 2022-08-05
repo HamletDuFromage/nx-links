@@ -1,6 +1,6 @@
 import json
 
-import cfws
+import ams_cfw
 import firmwares
 import sigpatches
 import app
@@ -15,7 +15,7 @@ if __name__ == '__main__':
         out = {}
 
     modules = [
-        cfws.Cfws(),
+        ams_cfw.Ams_cfw(),
         sigpatches.Sigpatches(),
         firmwares.Firmwares(),
         app.App()

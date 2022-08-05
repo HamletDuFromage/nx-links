@@ -1,6 +1,6 @@
 from basemodule import BaseModule
 
-class Cfws(BaseModule):
+class Ams_cfw(BaseModule):
     def __init__(self):
         self.config = [
             {
