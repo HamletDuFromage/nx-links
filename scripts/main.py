@@ -3,6 +3,7 @@ import json
 import cfws
 import firmwares
 import sigpatches
+import app
 
 if __name__ == '__main__':
 
@@ -17,6 +18,7 @@ if __name__ == '__main__':
         cfws.Cfws(),
         sigpatches.Sigpatches(),
         firmwares.Firmwares(),
+        app.App()
     ]
     for module in modules:
         if module.out == {}:
