@@ -51,13 +51,12 @@ class BaseModule:
             for pattern in self.config[index]["assetPatterns"]:
                 assetPaths += self.get_asset_link(release, pattern)
         return assetPaths
-
+        
     def handle_module(self):
-        for i in range(len(self.config)):
-            release = self.get_latest_release(i)
-            assets = self.get_asset_links(release, i)
-            for a in assets:
-                self.out[a.name] = a.browser_download_url
+        release = self.get_latest_release(0)
+        asset = self.get_asset_link(release, self.config[0]["assetPatterns"][0])
+        self.out["AtmoPackUpdater"] = asset.browser_download_url
+        self.out["version"] = release.tag_name
 
     def write_json(self):
         with open(self.path, 'w') as write_file:
