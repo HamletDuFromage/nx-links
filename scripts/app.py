@@ -6,7 +6,7 @@ class App(BaseModule):
             {
                 "username": "PoloNX",
                 "reponame": "AtmoPackUpdater",
-                "assetPatterns": [".*AtmoPackUpdater.*\\.zip"]
+                "assetPatterns": [".*AtmoPackUpdater.*\\.nro"]
             }
         ]
         BaseModule.__init__(self)
