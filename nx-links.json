@@ -1,1 +1,14 @@
-
+{
+    "cfws": {
+        "Pack Atmosphere 1.3.2 Hekate 5.8.0 & Sigpatch FW 14.1.2": "https://github.com/THZoria/AtmoPack-Vanilla/releases/download/v2.2.4/AtmoPack-Vanilla_Latest.zip"
+    },
+    "sigpatches": {
+        "signature_gpd 0.0.1": "https://github.com/PHRetroGamers/signature_gpd/releases/download/0.0.1/signature_gpd.zip"
+    },
+    "firmwares": {
+        "Firmware 14.1.2 (Rebootless Update 2)": "https://github.com/THZoria/NX_Firmware/releases/download/14.1.2r2/Firmware.14.1.2.Rebootless.Update.2.zip"
+    },
+    "app": {
+        "The last release\ud83d\udc4b ": "https://github.com/PoloNX/AtmoPackUpdater/releases/download/0.0.7/AtmoPackUpdater.nro"
+    }
+}
