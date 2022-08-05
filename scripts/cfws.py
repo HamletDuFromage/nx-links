@@ -16,8 +16,5 @@ class Cfws(BaseModule):
         for i in range(len(self.config)):
             release = self.get_latest_release(i)
             assets = self.get_asset_links(release, i)
-            for a in assets:
-                if self.config[i]["reponame"] not in self.out:
-                    self.out[self.config[i]["reponame"]] = {}
-                self.out[self.config[i]["reponame"]
-                         ][a.name] = a.browser_download_url
+            for asset in assets:
+                self.out[release.title] = asset.browser_download_url

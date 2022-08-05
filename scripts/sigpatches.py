@@ -7,7 +7,6 @@ class Sigpatches(BaseModule):
             {
                 "username": "PHRetroGamers",
                 "reponame": "signature_gpd",
-                "assetRegex": "",
                 "assetPatterns": [".*signature_gpd.*\\.zip"]
             }
         ]
