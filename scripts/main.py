@@ -5,7 +5,6 @@ import cfws
 import firmwares
 import hekate
 import payloads
-import sigpatches
 import hekate_ipl
 
 
@@ -23,7 +22,6 @@ if __name__ == '__main__':
         cfws.Cfws(),
         hekate.Hekate(),
         payloads.Payloads(),
-        sigpatches.Sigpatches(),
         firmwares.Firmwares(),
         hekate_ipl.HekateIpl()
     ]
