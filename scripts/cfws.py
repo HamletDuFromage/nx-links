@@ -30,5 +30,5 @@ class Cfws(BaseModule):
             for a in assets:
                 if self.config[i]["reponame"] not in self.out:
                     self.out[self.config[i]["reponame"]] = {}
-                self.out[self.config[i]["reponame"]
-                         ][a.name] = a.browser_download_url
+                name = a[1] * "[pre-release] " + a[0].name
+                self.out[self.config[i]["reponame"]][name] = a[0].browser_download_url

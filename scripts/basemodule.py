@@ -42,7 +42,7 @@ class BaseModule:
         assets = []
         for asset in release.get_assets():
             if re.search(pattern, asset.name):
-                assets.append(asset)
+                assets.append((asset, release.prerelease))
         return assets
 
     def get_asset_links(self, release, index):
@@ -57,7 +57,8 @@ class BaseModule:
             release = self.get_latest_release(i)
             assets = self.get_asset_links(release, i)
             for a in assets:
-                self.out[a.name] = a.browser_download_url
+                name = a[1] * "[pre-release] " + a[0].name
+                self.out[name] = a[0].browser_download_url
 
     def write_json(self):
         with open(self.path, 'w') as write_file:

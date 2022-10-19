@@ -7,7 +7,6 @@ class Hekate(BaseModule):
             {
                 "username": "CTCaer",
                 "reponame": "hekate",
-                "assetRegex": "",
                 "assetPatterns": [".*hekate_ctcaer.*\\.zip"]
             }
         ]

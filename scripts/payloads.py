@@ -7,19 +7,24 @@ class Payloads(BaseModule):
             {
                 "username": "Atmosphere-NX",
                 "reponame": "Atmosphere",
-                "assetRegex": "",
+                "assetPatterns": [".*fusee.*\\.bin"]
+            },
+            {
+                "username": "Atmosphere-NX",
+                "reponame": "Atmosphere",
+                "prerelease": True,
                 "assetPatterns": [".*fusee.*\\.bin"]
             },
             {
                 "username": "shchmue",
                 "reponame": "Lockpick_RCM",
-                "assetRegex": "",
+                "prerelease": True,
                 "assetPatterns": [".*Lockpick_RCM.*\\.bin"]
             },
             {
                 "username": "suchmememanyskill",
                 "reponame": "TegraExplorer",
-                "assetRegex": "",
+                "prerelease": True,
                 "assetPatterns": [".*TegraExplorer.*\\.bin"]
             }
         ]
