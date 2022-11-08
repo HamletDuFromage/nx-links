@@ -21,7 +21,6 @@
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.9/Lockpick_RCM.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix3/TegraExplorer.bin"
     },
-    "sigpatches": {},
     "firmwares": {
         "[mega.nz] Firmware 15.0.1": "https://mega.nz/file/8JwUQK6R#CpNCgmtQrjpNgem6Omo51qDEYw7MhrNF7jcZSNmprRo",
         "[archive.org] Firmware 15.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2015.0.0.zip",
