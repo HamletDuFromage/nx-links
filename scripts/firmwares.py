@@ -62,13 +62,17 @@ class Firmwares(BaseModule):
             links_archive = tables[0].find_all("td", {"class": "column-5"})
             links_mega = tables[0].find_all("td", {"class": "column-4"})
             for i in range(min(self.limit, len(titles))):
-                self.out[f"[archive.org] {titles[i]}"] = links_archive[i].find("a").get("href")
-                self.out[f"[mega.nz] {titles[i]}"] = links_mega[i].find("a").get("href")
+                if links_archive[i].find("a"):
+                    self.out[f"[archive.org] {titles[i]}"] = links_archive[i].find("a").get("href")
+                if links_mega[i].find("a"):
+                    self.out[f"[mega.nz] {titles[i]}"] = links_mega[i].find("a").get("href")
 
             china_titles = list(
                 map(self.get_content, tables[1].find_all("td", {"class": "column-1"})))
             china_links_archive = tables[1].find_all("td", {"class": "column-5"})
             china_links_mega = tables[1].find_all("td", {"class": "column-4"})
             for i in range(min(self.limit, len(china_titles))):
-                self.out[f"[archive.org] [China fw] {china_titles[i]}"] = china_links_archive[i].find("a").get("href")
-                self.out[f"[mega.nz] [China fw] {china_titles[i]}"] = china_links_mega[i].find("a").get("href")
+                if china_links_archive[i].find("a"):
+                    self.out[f"[archive.org] [China fw] {china_titles[i]}"] = china_links_archive[i].find("a").get("href")
+                if china_links_mega[i].find("a"):
+                    self.out[f"[mega.nz] [China fw] {china_titles[i]}"] = china_links_mega[i].find("a").get("href")
