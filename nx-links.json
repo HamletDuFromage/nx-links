@@ -5,7 +5,8 @@
     },
     "cfws": {
         "Atmosphere": {
-            "atmosphere-1.4.1-master-7a69f2f06+hbl-2.4.3+hbmenu-3.5.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.4.1/atmosphere-1.4.1-master-7a69f2f06%2Bhbl-2.4.3%2Bhbmenu-3.5.1.zip"
+            "atmosphere-1.4.1-master-7a69f2f06+hbl-2.4.3+hbmenu-3.5.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.4.1/atmosphere-1.4.1-master-7a69f2f06%2Bhbl-2.4.3%2Bhbmenu-3.5.1.zip",
+            "[pre-release] atmosphere-1.5.0-prerelease-356d89244+hbl-2.4.3+hbmenu-3.5.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.0-prerelease/atmosphere-1.5.0-prerelease-356d89244%2Bhbl-2.4.3%2Bhbmenu-3.5.1.zip"
         },
         "DeepSea": {
             "deepsea-advanced_v4.4.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.4.0/deepsea-advanced_v4.4.0.zip",
@@ -18,7 +19,8 @@
     },
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.4.1/fusee.bin",
-        "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.9/Lockpick_RCM.bin",
+        "[pre-release] fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.0-prerelease/fusee.bin",
+        "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.10/Lockpick_RCM.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix4/TegraExplorer.bin"
     },
     "firmwares": {
