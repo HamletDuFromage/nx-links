@@ -21,7 +21,7 @@
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.4.1/fusee.bin",
         "[pre-release] fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.0-prerelease/fusee.bin",
         "Lockpick_RCM.bin": "https://github.com/shchmue/Lockpick_RCM/releases/download/v1.9.10/Lockpick_RCM.bin",
-        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix4/TegraExplorer.bin"
+        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix3/TegraExplorer.bin"
     },
     "firmwares": {
         "[archive.org] Firmware 16.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2016.0.0.zip",
