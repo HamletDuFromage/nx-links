@@ -19,7 +19,6 @@
     },
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.3/fusee.bin",
-        "[pre-release] fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.4/fusee.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix4/TegraExplorer.bin"
     },
     "firmwares": {
