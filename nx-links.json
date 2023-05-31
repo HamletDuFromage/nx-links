@@ -18,7 +18,7 @@
         "hekate_ctcaer_6.0.4_Nyx_1.5.3.zip": "https://github.com/CTCaer/hekate/releases/download/v6.0.4/hekate_ctcaer_6.0.4_Nyx_1.5.3.zip"
     },
     "payloads": {
-        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.3/fusee.bin",
+        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.2/fusee.bin",
         "[pre-release] fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.4/fusee.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix4/TegraExplorer.bin"
     },
