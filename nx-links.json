@@ -23,6 +23,8 @@
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix4/TegraExplorer.bin"
     },
     "firmwares": {
+        "[archive.org] Firmware 16.0.3 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2016.0.3%20%28Rebootless%20Update%29.zip",
+        "[mega.nz] Firmware 16.0.3 (Rebootless Update)": "https://mega.nz/file/8ERnDTLC#QajQWkb6GBrpCmDw4NhhX4ztumSaXU1PK4SrMbKDy4k",
         "[archive.org] Firmware 16.0.3": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2016.0.3.zip",
         "[mega.nz] Firmware 16.0.3": "https://mega.nz/file/5UpU2bpZ#LWlP7el4KzX9BlP_gQPHdfFIokBYV1m-pNLCz1GpIuA",
         "[archive.org] Firmware 16.0.2": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2016.0.2.zip",
@@ -31,8 +33,8 @@
         "[mega.nz] Firmware 16.0.1": "https://mega.nz/file/dJh1HBTB#X8FWDuwRCQ4xjDufZI1kPNPVWD2CkAzCTVT_w4LN3pc",
         "[archive.org] Firmware 16.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2016.0.0.zip",
         "[mega.nz] Firmware 16.0.0": "https://mega.nz/file/IB5SyYYJ#ZES4plxEGqLzsN2sX8spGF0KGhqcNWvh6VxY2WQIlIQ",
-        "[archive.org] Firmware 15.0.1 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2015.0.1%20%28Rebootless%20Update%29.zip",
-        "[mega.nz] Firmware 15.0.1 (Rebootless Update)": "https://mega.nz/file/Id5jyRTB#PulAyz8IcSyiR-s6KYb-TwG719YxmxpzvO4utrEMaIs",
+        "[archive.org] [China fw] Firmware 16.0.3 (Rebootless Update)": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2016.0.3%20%28Rebootless%20Update%29.zip",
+        "[mega.nz] [China fw] Firmware 16.0.3 (Rebootless Update)": "https://mega.nz/file/xEJxkASC#QxYrQvCjKskTKzFe3b0F7Qkk07McIk41HFroosMzTQE",
         "[archive.org] [China fw] Firmware 16.0.3": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2016.0.3.zip",
         "[mega.nz] [China fw] Firmware 16.0.3": "https://mega.nz/file/UNAG3TiA#TcJwbNwtBWb_Ln2IOLunf5i6d-ZTbF1mXtcCdGeamwM",
         "[archive.org] [China fw] Firmware 16.0.2": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2016.0.2.zip",
@@ -40,9 +42,7 @@
         "[archive.org] [China fw] Firmware 16.0.1": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2016.0.1.zip",
         "[mega.nz] [China fw] Firmware 16.0.1": "https://mega.nz/file/xcRilDzY#ovYkteAZSy3t6aUHH-0a0v0erOTQzYtM73YVOnX4vg4",
         "[archive.org] [China fw] Firmware 16.0.0": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2016.0.0.zip",
-        "[mega.nz] [China fw] Firmware 16.0.0": "https://mega.nz/file/gBRhibLR#fJGMq1yHZRWPNJM6nyu2Y9i0DkFSwQoG8SkZ7bV1aiQ",
-        "[archive.org] [China fw] Firmware 15.0.1 (Rebootless Update)": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2015.0.1%20%28Rebootless%20Update%29.zip",
-        "[mega.nz] [China fw] Firmware 15.0.1 (Rebootless Update)": "https://mega.nz/file/YUY1SQoS#VXI9iE-MvcR_nrjZ03Og2mk0eflfsBxDcKEXKqCb5qs"
+        "[mega.nz] [China fw] Firmware 16.0.0": "https://mega.nz/file/gBRhibLR#fJGMq1yHZRWPNJM6nyu2Y9i0DkFSwQoG8SkZ7bV1aiQ"
     },
     "hekate_ipl": {
         "hekate_ipl.ini": "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"
