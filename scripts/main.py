@@ -28,6 +28,7 @@ if __name__ == '__main__':
     for module in modules:
         if module.out == {}:
             print(f"Module {module.__module__} returned an empty dict.")
+            continue
         out[module.__module__] = module.out
 
     with open(json_file, 'w') as out_file:
