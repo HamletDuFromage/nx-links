@@ -18,7 +18,7 @@
     },
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.4/fusee.bin",
-        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix4/TegraExplorer.bin"
+        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix3/TegraExplorer.bin"
     },
     "firmwares": {
         "[archive.org] Firmware 16.0.3 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2016.0.3%20%28Rebootless%20Update%29.zip",
