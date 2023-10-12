@@ -14,7 +14,7 @@
         }
     },
     "hekate": {
-        "hekate_ctcaer_6.0.6_Nyx_1.5.5.zip": "https://github.com/CTCaer/hekate/releases/download/v6.0.6/hekate_ctcaer_6.0.6_Nyx_1.5.5.zip"
+        "hekate_ctcaer_6.0.5_Nyx_1.5.4_v2.zip": "https://github.com/CTCaer/hekate/releases/download/v6.0.5/hekate_ctcaer_6.0.5_Nyx_1.5.4_v2.zip"
     },
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.5/fusee.bin",
