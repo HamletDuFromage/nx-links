@@ -5,6 +5,7 @@
     },
     "cfws": {
         "Atmosphere": {
+            "atmosphere-1.5.5-master-4fe9a89ab+hbl-2.4.3+hbmenu-3.5.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.5.5/atmosphere-1.5.5-master-4fe9a89ab%2Bhbl-2.4.3%2Bhbmenu-3.5.1.zip",
             "atmosphere-1.6.2-master-f7bf379cf+hbl-2.4.4+hbmenu-3.6.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.6.2/atmosphere-1.6.2-master-f7bf379cf%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip"
         },
         "DeepSea": {
