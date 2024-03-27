@@ -21,6 +21,7 @@
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.1.1/TegraExplorer.bin"
     },
     "firmwares": {
+        "[archive.org] Firmware 18.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2018.0.0.zip",
         "[mega.nz] Firmware 18.0.0": "https://mega.nz/file/tFBCBI6B#Hi0mZFb4tP5VRsAJKjKaM24FDlZFUCw9EsqCoclJZBo",
         "[archive.org] Firmware 17.0.1 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2017.0.1%20%28Rebootless%20Update%29.zip",
         "[mega.nz] Firmware 17.0.1 (Rebootless Update)": "https://mega.nz/file/hIBGSSDC#6ZBcu7koa3B3hFyeyj1AQRShp3RTQxUOt-nEmZ21oy8",
@@ -30,6 +31,7 @@
         "[mega.nz] Firmware 17.0.0 (Rebootless Update)": "https://mega.nz/file/wF5FyApS#eynADdOcXZl8j7unJ8nZXeo3B1GOMzmkoYI75Xif5c8",
         "[archive.org] Firmware 17.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2017.0.0.zip",
         "[mega.nz] Firmware 17.0.0": "https://mega.nz/file/QVRASLTA#r6aBlAhRV4duiefvgNzAl4hQwKyPNuoRZfPIMERG_DA",
+        "[archive.org] [China fw] Firmware 18.0.0": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2018.0.0.zip",
         "[mega.nz] [China fw] Firmware 18.0.0": "https://mega.nz/file/AcJgXQBY#iQUTy3IoFIGB6mDuYMFkQf1grbGa2kSGL05YNt1hAXY",
         "[archive.org] [China fw] Firmware 17.0.1 (Rebootless Update)": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2017.0.1%20%28Rebootless%20Update%29.zip",
         "[mega.nz] [China fw] Firmware 17.0.1 (Rebootless Update)": "https://mega.nz/file/hUJlCLzK#vx1-B7Kaml0XSUZCnsae4ZmxdpiqCP7_J7zV3xQov8c",
