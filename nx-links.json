@@ -5,8 +5,7 @@
     },
     "cfws": {
         "Atmosphere": {
-            "atmosphere-1.6.2-master-f7bf379cf+hbl-2.4.4+hbmenu-3.6.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.6.2/atmosphere-1.6.2-master-f7bf379cf%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip",
-            "[pre-release] atmosphere-1.7.0-prerelease-35d93a7c4+hbl-2.4.4+hbmenu-3.6.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.0-prerelease/atmosphere-1.7.0-prerelease-35d93a7c4%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip"
+            "atmosphere-1.7.0-master-35d93a7c4+hbl-2.4.4+hbmenu-3.6.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.0-prerelease/atmosphere-1.7.0-master-35d93a7c4%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip"
         },
         "DeepSea": {
             "deepsea-advanced_v4.9.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.9.0/deepsea-advanced_v4.9.0.zip",
@@ -18,8 +17,7 @@
         "hekate_ctcaer_6.1.1_Nyx_1.6.1.zip": "https://github.com/CTCaer/hekate/releases/download/v6.1.1/hekate_ctcaer_6.1.1_Nyx_1.6.1.zip"
     },
     "payloads": {
-        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.6.2/fusee.bin",
-        "[pre-release] fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.0-prerelease/fusee.bin",
+        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.0-prerelease/fusee.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.1.1/TegraExplorer.bin"
     },
     "firmwares": {
