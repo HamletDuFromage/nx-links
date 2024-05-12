@@ -8,9 +8,9 @@
             "atmosphere-1.7.0-master-35d93a7c4+hbl-2.4.4+hbmenu-3.6.0.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.0-prerelease/atmosphere-1.7.0-master-35d93a7c4%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip"
         },
         "DeepSea": {
-            "deepsea-advanced_v4.9.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.9.0/deepsea-advanced_v4.9.0.zip",
-            "deepsea-minimal_v4.9.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.9.0/deepsea-minimal_v4.9.0.zip",
-            "deepsea-normal_v4.9.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.9.0/deepsea-normal_v4.9.0.zip"
+            "deepsea-advanced_v4.10.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.10.0/deepsea-advanced_v4.10.0.zip",
+            "deepsea-minimal_v4.10.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.10.0/deepsea-minimal_v4.10.0.zip",
+            "deepsea-normal_v4.10.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.10.0/deepsea-normal_v4.10.0.zip"
         }
     },
     "hekate": {
