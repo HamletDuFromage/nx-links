@@ -21,26 +21,26 @@
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.1.1/TegraExplorer.bin"
     },
     "firmwares": {
+        "[archive.org] Firmware 18.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2018.1.0.zip",
+        "[mega.nz] Firmware 18.1.0": "https://mega.nz/file/tRB0Xawb#_hy2b6paUy2yvRHhqyD4xcaSVcreAjcuvmU8hSGJBDM",
+        "[archive.org] Firmware 18.0.1": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2018.0.1.zip",
+        "[mega.nz] Firmware 18.0.1": "https://mega.nz/file/RBhzQB5R#5p1t8nhLCDrTgAUg0Eh3sHHTDNhwUaX5jVLbaQGTbTE",
         "[archive.org] Firmware 18.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2018.0.0.zip",
         "[mega.nz] Firmware 18.0.0": "https://mega.nz/file/tFBCBI6B#Hi0mZFb4tP5VRsAJKjKaM24FDlZFUCw9EsqCoclJZBo",
         "[archive.org] Firmware 17.0.1 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2017.0.1%20%28Rebootless%20Update%29.zip",
         "[mega.nz] Firmware 17.0.1 (Rebootless Update)": "https://mega.nz/file/hIBGSSDC#6ZBcu7koa3B3hFyeyj1AQRShp3RTQxUOt-nEmZ21oy8",
         "[archive.org] Firmware 17.0.1": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2017.0.1.zip",
         "[mega.nz] Firmware 17.0.1": "https://mega.nz/file/ZZABkaiI#idFS2nD_HqvZa-NG5s1odDr0c7RCGMm8exsLFagHyYA",
-        "[archive.org] Firmware 17.0.0 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2017.0.0%20%28Rebootless%20Update%29.zip",
-        "[mega.nz] Firmware 17.0.0 (Rebootless Update)": "https://mega.nz/file/wF5FyApS#eynADdOcXZl8j7unJ8nZXeo3B1GOMzmkoYI75Xif5c8",
-        "[archive.org] Firmware 17.0.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2017.0.0.zip",
-        "[mega.nz] Firmware 17.0.0": "https://mega.nz/file/QVRASLTA#r6aBlAhRV4duiefvgNzAl4hQwKyPNuoRZfPIMERG_DA",
+        "[archive.org] [China fw] Firmware 18.1.0": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2018.1.0.zip",
+        "[mega.nz] [China fw] Firmware 18.1.0": "https://mega.nz/file/hdpUibQZ#-s8-Bl7fz6Jog6A8JYTlJjWYSnOnOYqxrBG4J7nbCak",
+        "[archive.org] [China fw] Firmware 18.0.1": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2018.0.1.zip",
+        "[mega.nz] [China fw] Firmware 18.0.1": "https://mega.nz/file/8BhQiTaL#fPZA7DH388mthHSO5TSRSdfHV60545lmwpfOoWJJxJA",
         "[archive.org] [China fw] Firmware 18.0.0": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2018.0.0.zip",
         "[mega.nz] [China fw] Firmware 18.0.0": "https://mega.nz/file/AcJgXQBY#iQUTy3IoFIGB6mDuYMFkQf1grbGa2kSGL05YNt1hAXY",
         "[archive.org] [China fw] Firmware 17.0.1 (Rebootless Update)": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2017.0.1%20%28Rebootless%20Update%29.zip",
         "[mega.nz] [China fw] Firmware 17.0.1 (Rebootless Update)": "https://mega.nz/file/hUJlCLzK#vx1-B7Kaml0XSUZCnsae4ZmxdpiqCP7_J7zV3xQov8c",
         "[archive.org] [China fw] Firmware 17.0.1": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2017.0.1.zip",
-        "[mega.nz] [China fw] Firmware 17.0.1": "https://mega.nz/file/UEhhHKpa#gpjdeAEa7ITmGc18Qs5rITU4QYQSQHuGwmE9QI14i4U",
-        "[archive.org] [China fw] Firmware 17.0.0 (Rebootless Update)": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2017.0.0%20%28Rebootless%20Update%29.zip",
-        "[mega.nz] [China fw] Firmware 17.0.0 (Rebootless Update)": "https://mega.nz/file/ZIoFEBrQ#qaeNortBOTpyL5xebLtD_nEZsSYU9d4lD97dSva6fCE",
-        "[archive.org] [China fw] Firmware 17.0.0": "https://archive.org/download/nintendo-switch-china-firmwares/Firmware%2017.0.0.zip",
-        "[mega.nz] [China fw] Firmware 17.0.0": "https://mega.nz/file/oMIjFKwJ#CCkocCBZqGOgCNMgrlECri72DfwN8UTJmb5AMVAo5Ao"
+        "[mega.nz] [China fw] Firmware 17.0.1": "https://mega.nz/file/UEhhHKpa#gpjdeAEa7ITmGc18Qs5rITU4QYQSQHuGwmE9QI14i4U"
     },
     "hekate_ipl": {
         "hekate_ipl.ini": "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"
