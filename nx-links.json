@@ -1,6 +1,6 @@
 {
     "bootloaders": {
-        "hekate_ctcaer_6.2.0_Nyx_1.6.2_v4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.0/hekate_ctcaer_6.2.0_Nyx_1.6.2_v4.zip",
+        "hekate_ctcaer_6.2.1_Nyx_1.6.3.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.1/hekate_ctcaer_6.2.1_Nyx_1.6.3.zip",
         "argon-nx.zip": "https://github.com/Guillem96/argon-nx/releases/download/1.1-alpha/argon-nx.zip"
     },
     "cfws": {
@@ -14,7 +14,7 @@
         }
     },
     "hekate": {
-        "hekate_ctcaer_6.2.0_Nyx_1.6.2_v4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.0/hekate_ctcaer_6.2.0_Nyx_1.6.2_v4.zip"
+        "hekate_ctcaer_6.2.1_Nyx_1.6.3.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.1/hekate_ctcaer_6.2.1_Nyx_1.6.3.zip"
     },
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/fusee.bin",
