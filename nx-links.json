@@ -18,7 +18,7 @@
     },
     "payloads": {
         "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/fusee.bin",
-        "[pre-release] TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.2.0/TegraExplorer.bin"
+        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.2.0/TegraExplorer.bin"
     },
     "firmwares": {
         "[archive.org] Firmware 18.1.0": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2018.1.0.zip",
