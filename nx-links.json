@@ -17,8 +17,7 @@
         "hekate_ctcaer_6.5.1_Nyx_1.9.1.zip": "https://github.com/CTCaer/hekate/releases/download/v6.5.1/hekate_ctcaer_6.5.1_Nyx_1.9.1.zip"
     },
     "payloads": {
-        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.10.2/fusee.bin",
-        "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.2.0/TegraExplorer.bin"
+        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.10.2/fusee.bin"
     },
     "firmwares": {
         "[mega.nz] Firmware 21.0.0": "https://mega.nz/file/bR9VAAJB#3g1hAI6z2yFLkRKKj0N5gGvB5MGhL6BIkeEupnRH8Gg",
