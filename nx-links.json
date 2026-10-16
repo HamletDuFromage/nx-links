@@ -5,7 +5,7 @@
     },
     "cfws": {
         "Atmosphere": {
-            "atmosphere-1.12.0-master-28d6a2e11+hbl-2.4.5+hbmenu-3.6.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.12.0/atmosphere-1.12.0-master-28d6a2e11%2Bhbl-2.4.5%2Bhbmenu-3.6.1.zip"
+            "atmosphere-1.12.1-master-6b0c077b4+hbl-2.4.5+hbmenu-3.6.1.zip": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.12.1/atmosphere-1.12.1-master-6b0c077b4%2Bhbl-2.4.5%2Bhbmenu-3.6.1.zip"
         },
         "DeepSea": {
             "deepsea-advanced_v4.15.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.15.0/deepsea-advanced_v4.15.0.zip",
@@ -17,7 +17,7 @@
         "hekate_ctcaer_6.5.4_Nyx_1.9.4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.5.4/hekate_ctcaer_6.5.4_Nyx_1.9.4.zip"
     },
     "payloads": {
-        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.12.0/fusee.bin",
+        "fusee.bin": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.12.1/fusee.bin",
         "TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.2.0/TegraExplorer.bin"
     },
     "firmwares": {
